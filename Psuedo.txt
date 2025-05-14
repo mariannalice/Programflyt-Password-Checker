@@ -1,13 +1,12 @@
 Start
-  Les inn tekstreng fra bruker
+  Les inn tekststreng fra bruker
+  Mål lengden på tekstrengen
 
-    Mål lengden på tekstrengen
+  Hvis lengden er mindre enn 6 
+    Vis "Svakt passord"
 
-      Hvis lengden er mindre enn 6 
-        Vis "Svakt passord"
-
-  Ellers hvis lenden er emmelom 6 og 10
-    Vis "Middels stekrt passord"
+  Ellers hvis lenden er mellom 6 og 10 (inkludert)
+    Vis "Middels sterkt passord"
 
   Ellers
     Vis "Sterkt passord"
